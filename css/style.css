@@ -1,0 +1,58 @@
+/*  css reset-->remove all default values */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main styling */
+html,
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.7em;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* navbar--> this is id selecter*/
+#navbar {
+  /* background properties combined aayi nalkan */
+  background: yellow;
+  color: #333;
+  overflow: auto;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  /* to remove bullets */
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  list-style: none;
+  float: right;
+}
+#navbar ul li a {
+  /* block upayokikkan karanam padding add cheyyan. otherwise nadakkilla, a oru inline aanu by default */
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover {
+  background: #444;
+  color: #f7c08f;
+}
