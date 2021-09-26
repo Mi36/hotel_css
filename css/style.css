@@ -10,6 +10,7 @@ html,
 body {
   font-family: "Courier New", Courier, monospace;
   line-height: 1.7em;
+  /* check how the unit working and different units */
 }
 a {
   text-decoration: none;
@@ -28,10 +29,17 @@ p {
 /* navbar--> this is id selecter*/
 #navbar {
   /* background properties combined aayi nalkan */
-  background: yellow;
-  color: #333;
+  background: #333;
+  color: #fff;
   overflow: auto;
+  /* background shows no matter what due to above */
 }
+
+#navbar a {
+  color: white;
+}
+
+/* left koduthal container inte leftil ee element varutham */
 #navbar h1 {
   float: left;
   padding-top: 20px;
@@ -40,11 +48,16 @@ p {
 #navbar ul {
   /* to remove bullets */
   list-style: none;
+  /* items rightil varan */
   float: right;
 }
+
+/* ul li -kodukkm or just li kodukkam. just for readability and understanding */
 #navbar ul li {
   list-style: none;
-  float: right;
+  float: left;
+  /* ivide left koduthal ee perticular containerinte left aakum */
+  background-color: darkolivegreen;
 }
 #navbar ul li a {
   /* block upayokikkan karanam padding add cheyyan. otherwise nadakkilla, a oru inline aanu by default */
@@ -54,5 +67,5 @@ p {
 }
 #navbar ul li a:hover {
   background: #444;
-  color: #f7c08f;
+  color: #f7c08a;
 }
