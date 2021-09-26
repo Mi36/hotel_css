@@ -77,3 +77,15 @@ p {
   background: #444;
   color: #f7c08a;
 }
+
+#showcase {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  /* text color inside the container and its alignment */
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
