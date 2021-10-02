@@ -111,7 +111,7 @@ p {
   color: #fff;
 }
 /* left koduthal container inte leftil ee element varutham */
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
