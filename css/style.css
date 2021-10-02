@@ -79,7 +79,8 @@ p {
 }
 
 #showcase {
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  /* if we put center/cover complete width utilized by image */
+  background: url("../img/showcase.jpg") no-repeat center/cover;
   height: 600px;
 }
 
@@ -88,4 +89,37 @@ p {
   color: #fff;
   text-align: center;
   padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+
+.text-primary {
+  color: #ecd4bb;
+}
+
+.lead {
+  color: aqua;
+  font-size: 25px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
 }
